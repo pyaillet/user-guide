@@ -36,7 +36,7 @@ spec:
               initrdPath: /boot/initramfs-virt
               kernelPath: /boot/vmlinuz-virt
               imagePullPolicy: Always
-              imagePullSecret: IfNotPresent
+              imagePullSecret: registry-secret
             kernelArgs: console=ttyS0
         resources:
           requests:
